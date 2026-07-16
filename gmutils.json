@@ -1,0 +1,32 @@
+{
+  "version": "0.7.0",
+  "description": "Genmeta Binary Utilities",
+  "license": "Apache-2.0",
+  "homepage": "https://www.dhttp.net",
+  "architecture": {
+    "32bit": {
+      "hash": "ce4d3baa8b5950c325eaaef2d0aa5795316ef6c7ac04868cd6774ef36a1836db",
+      "url": "https://download.dhttp.net/scoop/stable/gmutils-0.7.0-i686-pc-windows-msvc.zip"
+    },
+    "64bit": {
+      "hash": "5b8f80c7eecc6614da5856eec89a4397ee38f5cc574d09a429e42f580258b898",
+      "url": "https://download.dhttp.net/scoop/stable/gmutils-0.7.0-x86_64-pc-windows-msvc.zip"
+    }
+  },
+  "bin": [
+    "genmeta.exe",
+    "genmeta-ssh.bat"
+  ],
+  "checkver": {
+    "url": "https://download.dhttp.net/scoop/stable/gmutils.json",
+    "re": "\"version\"\\s*:\\s*\"([^\"]+)\""
+  },
+  "autoupdate": {
+    "32bit": {
+      "url": "https://download.dhttp.net/scoop/stable/gmutils-0.7.0-i686-pc-windows-msvc.zip"
+    },
+    "64bit": {
+      "url": "https://download.dhttp.net/scoop/stable/gmutils-0.7.0-x86_64-pc-windows-msvc.zip"
+    }
+  }
+}
