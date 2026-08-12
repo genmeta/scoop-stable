@@ -1,16 +1,16 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Genmeta Binary Utilities",
   "license": "Apache-2.0",
   "homepage": "https://www.dhttp.net",
   "architecture": {
   "32bit": {
-    "hash": "245327f8444ef99fc9bc0915a096bbcacb061ddb72ff155c44b7ccb3b72fb968",
-    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.0-i686-pc-windows-msvc.zip"
+    "hash": "8484b91de8bb2f1f85ab98f34ce0344652931d4c15725a6020624236599b01f7",
+    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.1-i686-pc-windows-msvc.zip"
   },
   "64bit": {
-    "hash": "4ad93aa82560f331f428c87daf8b90a5f286121ab8ab0abb5ffd129feca86748",
-    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.0-x86_64-pc-windows-msvc.zip"
+    "hash": "adafcf8ec3200d8502b691a0991c00b7e3074d5fd9a8146b12753a3cf357f8f0",
+    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.1-x86_64-pc-windows-msvc.zip"
   }
 },
   "bin": [
@@ -23,10 +23,10 @@
 },
   "autoupdate": {
   "32bit": {
-    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.0-i686-pc-windows-msvc.zip"
+    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.1-i686-pc-windows-msvc.zip"
   },
   "64bit": {
-    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.0-x86_64-pc-windows-msvc.zip"
+    "url": "https://download.dhttp.net/scoop/stable/gmutils-0.8.1-x86_64-pc-windows-msvc.zip"
   }
 }
 }
